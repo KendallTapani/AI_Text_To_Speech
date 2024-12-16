@@ -1,8 +1,9 @@
 This is a neat little Next.js app I put together while going through the ElevenLabs API docs.
 
-For some reason everyone thinks this is only a Python-based API, but you don't submit python code to an API to get a response, they respond based on an authenticated HTTP request. You can make the HTTP request in any language as long as it’s formatted correctly. I did that it here in TypeScript without any complicated code. (see screenshot)
+For some reason everyone thinks this is a Python-based API, because the official Github is a for Python. APIs to any HTTP request in any language as long as it’s formatted correctly. I did that it here in TypeScript without any complicated code. 
+(see screenshot)
 
-The app uses generic Next.js, TypeScript, and Tailwind. The main files to check out are the route.ts and text-to-speech.tsx files, which contain most of the code. The rest is generic rendering and styling.
+The app uses generic Next.js, TypeScript, and Tailwind. The main files to check out are the route.ts and text-to-speech.tsx files, which contain most of the code. The rest is generic Nextjs rendering and styling.
 
 For some of the more complicated parts in the route.ts file, I added comments explaining what each individual section is doing.
 
