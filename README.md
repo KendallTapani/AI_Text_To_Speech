@@ -1,6 +1,6 @@
 This is a neat little Next.js app I put together while going through the ElevenLabs API docs. This does NOT install the Elevenlabs library, rather, it makes a manual HTTP request, and gets a response MPEG audio file from Elevenlabs.
 
-For some reason everyone thinks you need the Elevenlabs library, using Python or Javascript for the API to work. If a company has a unique case and aren't able to install the library properly, they can format an HTTP request manually. I did that it here in TypeScript without any complicated code. 
+FIf a company has a unique case and aren't able to install the library properly, i.e. dependancy conflicts, serverless functions, or they just need minimal code overhead, they can format an HTTP request manually. I did that it here in TypeScript without any complicated code. 
 
 The app uses generic Next.js, TypeScript, and Tailwind. The main files to check out are the route.ts and text-to-speech.tsx files, which contain most of the code. The rest is generic Nextjs rendering and styling.
 
